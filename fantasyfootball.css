@@ -1,0 +1,54 @@
+td { 
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    border-color: black;
+    border: solid 5px ;
+    background-color: white;
+}
+
+table, td, th, tr {
+    border-collapse: collapse;
+}
+
+
+body{
+    background-color: #00A844;
+}
+
+.buttons{
+    text-align: center;
+}
+
+button{
+    text-align: center;
+    width: 200px;
+    font-size: 1em;
+}
+
+#logo{
+    height: 150px;
+}
+
+tr:hover{
+    background-color: grey;
+    color: white;
+}
+
+.intro{
+    text-align: center;
+}
+
+li:hover{
+    font-weight: bold;
+}
+
+#form{
+    float: right;
+}
+
+.ranks{
+    float: left;
+}
