@@ -1,86 +1,69 @@
-td { 
+td {
     text-align: center;
 }
-
 table{
     width: 100%;
     border-color: black;
     border: solid 2px ;
     background-color: white;
 }
-
 table, td, th, tr {
     border-collapse: collapse;
 }
-
-
 body{
     background-color: #00A844;
 }
-
 .buttons{
     text-align: center;
 }
-
 button{
     text-align: center;
     width: 200px;
     font-size: 1em;
 }
-
 #logo{
     height: 150px;
     width: 200px;
 }
-
 tr:hover{
     background-color: grey;
     color: white;
 }
-
 .intro{
     text-align: center;
     width: 50%;
     order: 2;
     background-color: white;
 }
-
 li:hover{
     font-weight: bold;
 }
-
 #form{
     width: 25%;
     text-align: center;
     order: 3;
     background-color: white;
 }
-
 .ranks{
     width: 25%;
     text-align: left;
     order: 0;
     background-color: white;
 }
-
 .container{
     display: flex;
     width: 100%;
     gap: 5px;
 }
-
 h2{
     text-shadow: 1px 1px white;
 }
-
 p{
     font-size: 1.2em;
 }
-
 h1{
     font-size: 2.5em;
 }
-
 footer{
     width: 100%;
     text-align: center;
