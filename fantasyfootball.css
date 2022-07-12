@@ -65,9 +65,53 @@ h1{
     font-size: 2.5em;
 }
 footer{
-    width: 100%;
     text-align: center;
-    position: fixed;
-    bottom: 0;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
     font-size: smaller;
+    background-color: gray;
+}
+
+@media only screen and (max-device-width: 480px) {
+
+    .intro{
+        order: 0;
+        width: 100%
+    }
+
+    .ranks{
+        order: 1;
+        width: 100%;
+    }
+
+    #form{
+        width: 100%;
+    }
+    .buttons{
+        width: 100%;
+    }
+
+    .container{
+        display: flex;
+        gap: 0;
+        flex-flow: column wrap;
+    }
+    
+    body{
+        margin-bottom: 20px;
+    }
+
+    footer{
+        height: 20px;
+        text-align: center;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        font-size: smaller;
+        background-color: gray;
+    }
+
 }
