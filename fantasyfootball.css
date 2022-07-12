@@ -5,7 +5,7 @@ td {
 table{
     width: 100%;
     border-color: black;
-    border: solid 5px ;
+    border: solid 2px ;
     background-color: white;
 }
 
@@ -30,6 +30,7 @@ button{
 
 #logo{
     height: 150px;
+    width: 200px;
 }
 
 tr:hover{
@@ -40,6 +41,8 @@ tr:hover{
 .intro{
     text-align: center;
     width: 50%;
+    order: 2;
+    background-color: white;
 }
 
 li:hover{
@@ -48,15 +51,40 @@ li:hover{
 
 #form{
     width: 25%;
-    text-align: end;
+    text-align: center;
+    order: 3;
+    background-color: white;
 }
 
 .ranks{
     width: 25%;
     text-align: left;
+    order: 0;
+    background-color: white;
 }
 
 .container{
     display: flex;
     width: 100%;
+    gap: 5px;
+}
+
+h2{
+    text-shadow: 1px 1px white;
+}
+
+p{
+    font-size: 1.2em;
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    font-size: smaller;
 }
